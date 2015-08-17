@@ -1,0 +1,24 @@
+pkgbase = orfeo-toolbox-hg
+	pkgdesc = ORFEO Toolbox (OTB) is an open source library of image processing algorithms
+	pkgver = 16919.5780da3a9467
+	pkgrel = 1
+	url = http://www.orfeo-toolbox.org/otb/
+	install = 
+	changelog = 
+	arch = x86_64
+	license = CeCILL
+	makedepends = mercurial
+	depends = cmake
+	depends = gdal
+	depends = freeglut
+	depends = curl
+	depends = fftw
+	depends = tinyxml
+	depends = muparser
+	depends = openthreads
+	provides = orfeo-toolbox-orfeo-toolbox
+	conflicts = orfeo-toolboxorfeo-toolbox
+	source = orfeo-toolbox-hg::hg+http://hg.orfeo-toolbox.org/OTB
+
+pkgname = orfeo-toolbox-hg
+
